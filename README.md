@@ -7,6 +7,14 @@ This project detects 7 emotions from grayscale images based on facial expression
 
 **Emotions Detected:** Angry, Disgust, Fear, Happy, Neutral, Sad, Surprise
 
+## Tech Stack
+- Python
+- TensorFlow / Keras
+- OpenCV
+- NumPy
+- Scikit-learn
+- Matplotlib
+
 2. Dataset
 
     Source: FER2013
@@ -56,20 +64,22 @@ emotion-detection/
 
 ## 🚀 How to Run
 
-# Prerequisites
+## Prerequisites
+
 ```bash
 pip install tensorflow opencv-python numpy matplotlib scikit-learn
 
+```markdown
+### 1. Train the Model (Optional)
 
-# 1. Train the Model (Optional - pre-trained model included)
-   bash
+```bash
 python src/train_model.py
-```
 
-# 2. Run Real-Time Detection
-bash
+```markdown
+
+### 2. Run Real-Time Detection
+```bash
 python src/real_time_emotion.py
-
 
 **Controls:**
 - Press `q` to quit
@@ -200,3 +210,9 @@ faces = face_cascade.detectMultiScale(
 - [ ] Deploy as web application
 - [ ] Fine-tune on custom dataset
 - [ ] Add audio-based emotion detection
+
+```markdown
+---
+
+## Author
+Harshitha Rayudu
