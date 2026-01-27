@@ -1,7 +1,7 @@
 # Emotion Detection System
 Real-time facial emotion detection using Deep Learning and OpenCV.
 
-1. Project Overview
+## Project Overview
 
 This project detects 7 emotions from grayscale images based on facial expressions in real-time using a Convolutional Neural Network (CNN) trained on the FER2013 dataset.
 
@@ -15,8 +15,7 @@ This project detects 7 emotions from grayscale images based on facial expression
 - Scikit-learn
 - Matplotlib
 
-2. Dataset
-
+## Dataset
     Source: FER2013
 
     Training images: 28,709
@@ -25,7 +24,7 @@ This project detects 7 emotions from grayscale images based on facial expression
 
     Image size: 48×48 grayscale
 
-3. Features
+## Features
 
 - Real-time emotion detection from webcam feed
 - Face detection using Haar Cascades
@@ -69,16 +68,12 @@ emotion-detection/
 ```bash
 pip install tensorflow opencv-python numpy matplotlib scikit-learn
 
+
 ```markdown
 ### 1. Train the Model (Optional)
-
-```bash
 python src/train_model.py
 
-```markdown
-
 ### 2. Run Real-Time Detection
-```bash
 python src/real_time_emotion.py
 
 **Controls:**
