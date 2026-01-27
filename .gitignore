@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+
+models/
+data/
+
+*.h5
+*.keras
+history.npy
+training_history.png
